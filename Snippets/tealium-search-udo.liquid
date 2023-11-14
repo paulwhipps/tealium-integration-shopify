@@ -5,11 +5,11 @@
     "site_section": "search",
     "search_results": "{{ search.results_count }}",
     "search_keyword": "{{ search.terms }}",
-    {% include 'global_udo_vars' %}
+    {% render 'tealium-global-udo-vars' %}
     "page_type": "search"
   }
 </script>
 
-{% include 'utag' %}
+{% render 'tealium-utag' %}
 
 {% endif %}
